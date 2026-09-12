@@ -23,10 +23,14 @@ not use it; `wip-spec` is the preferred way to produce the spec here.
 
 ## Skills
 
-| Skill       | Triggers when the request is to...                          |
-| ----------- | ----------------------------------------------------------- |
-| `wip-spec`  | draft, write, or overwrite a technical spec in `wip.md`     |
-| `build-it`  | execute, build, or implement the tasks defined in `wip.md`  |
+Both skills are **manually invoked**. Their descriptions are gated with
+"Use ONLY when..." so the agent will not activate them on its own — you have to
+ask for them explicitly (e.g. "use `wip-spec`").
+
+| Skill       | Use when you explicitly ask to...                          |
+| ----------- | ---------------------------------------------------------- |
+| `wip-spec`  | draft, write, or overwrite a technical spec in `wip.md`    |
+| `build-it`  | execute, build, or implement the tasks defined in `wip.md` |
 
 ## Layout
 
